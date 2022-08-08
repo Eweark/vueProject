@@ -29,7 +29,7 @@
 					<el-submenu index="2">
 						<template slot="title"><i class="el-icon-menu"></i>导航二</template>
 						<el-menu-item-group>
-							<template slot="title">分组一</template>
+							<template slot="title">商品</template>
 							<el-menu-item index="2-1">
                 <router-link to="/goods">商品管理
                 </router-link></el-menu-item>
