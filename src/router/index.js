@@ -9,6 +9,7 @@ import back from '../components/adminback/backMain.vue'
 import hello from '../components/adminback/HelloWorld.vue'
 import userList from '../components/adminback/userList.vue'
 import roleList from '../components/adminback/roleList.vue'
+import goodsList from '../components/adminback/GoodsList.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -25,7 +26,9 @@ export default new Router({
     	children:[
     		{path:'/hello/:id',component: hello,props:true},
     		{path:'/userList',component: userList},
-    		{path:'/role',component: roleList}
+    		{path:'/role',component: roleList},
+        {path:'/goods',component: goodsList}
+        
     	]
     }
   ]
